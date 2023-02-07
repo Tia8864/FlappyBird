@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rate
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 493
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87435b973dae93849b19bf31b7ca767f
+      internalID: -1428548219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 472
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cf5e93cdace724286de38dc22412f6
+      internalID: 2081011698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ok
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 456
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8780f884502bde4ebb3a5240d87f53a
+      internalID: 1792039147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: get ready
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 428
+        width: 92
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605a0032b45a0143bfb15289b7139ab
+      internalID: -1645303877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird00_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 394
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ccf8726ab044e41b8bdf57a337be27
+      internalID: -153414832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 397
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1b14335d004034586cefe54a4fcb07
+      internalID: -1962113308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird00_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 379
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee547317cd7ae4ba6950af92703941
+      internalID: -1126085553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird00_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 372
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dd4576ccb520c47917a5c4a89f13ad
+      internalID: 1483672577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bird00_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 379
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af26e9bc0013b7d419024b7b27014af3
+      internalID: 944607277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 365
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd6756ffd754943a7c93a8219a7a9e
+      internalID: 29545426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: score
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 365
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368a3973354e21441bae058011c3d7c0
+      internalID: -166477728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: share
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 356
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e448a7a1edac517449fa34f6e45623e0
+      internalID: -920928862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play0
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 356
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26fa2a2f2e6865469d9808863bc3a2c
+      internalID: 310718213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: madal
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23effecf54230b043977809766570467
+      internalID: -1019825866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 232
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae3ac7150c3fbb42a9c5790d3690e94
+      internalID: -1726985225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 208
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5ca1ad5a6d78e4680309cca0185bf8
+      internalID: -292027068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a517af28b0cf3459edb92b804b4f0c
+      internalID: -916509309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Flappy_Bird_-_Version_12_Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc137a3f741ccc42b6de1918d9801f8
+      internalID: -1964444525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Flappy_Bird_-_Version_12_Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880d21f6a9635e478900d21fd754770
+      internalID: -751763666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Flappy_Bird_-_Version_12_Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 69
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4a0a61fb905e145b4ecf85d9dbf5b4
+      internalID: -918784960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 37
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb879cdefa5bab41a02dbb07edd8da2
+      internalID: 717207910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b361402d9140409f0b176b0106e27
+      internalID: 1838130554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6ac5f28422db49b3c9c749de2fef8
+      internalID: 443636221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +609,88 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coin1: -1726985225
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_74: 138132458
+      menu: 2081011698
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_22: 1939914916
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_11: 1370223735
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_20: -663625839
+      get ready: -1645303877
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_24: 1015467971
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_64: -427379071
+      madal: -1019825866
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_15: 949382156
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_53: 1281531882
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_67: 448479261
+      play0: 310718213
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_39: -370401519
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_62: 535802366
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_43: -142517710
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_71: -1441821246
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_69: -918784960
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_37: 1632472023
+      coin2: 717207910
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_50: 947488671
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_2: -1193008629
+      coin3: -292027068
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_23: 1484830285
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_45: -937518951
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_54: -2056046497
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_25: -1272934985
+      play: 29545426
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_14: -660845528
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_60: 1760275369
+      bird00_2: -1126085553
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_56: -1925984999
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_61: 408366242
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_5: 1187040999
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_55: 1422948241
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_51: 967809892
+      bird00_1: -153414832
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_13: 982006675
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_59: -697473436
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_36: -1139310907
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_52: 2127708376
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_58: -1964444525
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_77: 1348366506
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_1: -111264527
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_21: 717275912
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_38: 85264078
+      new: 443636221
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_7: -1023800118
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_0: -2078015788
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_44: -916256978
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_63: -1636587624
+      pause: -916509309
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_68: -751763666
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_40: -2098085184
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_80: 1472043582
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_35: 421139160
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_42: 235533710
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_65: 753539779
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_34: -408292742
+      bird00_3: 1483672577
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_57: -1310282712
+      bird00_4: 944607277
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_4: -1006601298
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_73: -906523946
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_76: 20062036
+      ok: 1792039147
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_41: -819152183
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_66: -35520195
+      share: -920928862
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_19: -860749051
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_9: 944446964
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_26: 435617585
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_18: 2110597606
+      rate: -1428548219
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_78: 421456492
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_75: 1062819488
+      score: -166477728
+      Title: -1962113308
+      coin4: 1838130554
+      Mobile_-_Flappy_Bird_-_Version_12_Sprites_12: -546338682
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
