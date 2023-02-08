@@ -20,7 +20,7 @@ public class Pipe_Spwan : MonoBehaviour
     //function spwan pipe
     IEnumerator _Spwan()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         Instantiate(pipeHolder, _RandomPosition(min, max), Quaternion.identity);
         StartCoroutine(_Spwan());
     }

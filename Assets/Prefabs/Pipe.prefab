@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8484188398480773115}
   - component: {fileID: 3432469458960624318}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pipe Holder
   m_TagString: Taget
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 8272073138107461139}
   - component: {fileID: 8272073138107461136}
   m_Layer: 7
-  m_Name: Pine-Down
+  m_Name: Pipe-Down
   m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 8272073139187423467}
   - component: {fileID: 8272073139187423464}
   m_Layer: 7
-  m_Name: Pine-Up
+  m_Name: Pipe-Up
   m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
