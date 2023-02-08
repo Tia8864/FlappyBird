@@ -5,9 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - BackGround
-  - Pine
   - Bird
   - Ground
+  - Pipe
+  - Taget
+  - Pine
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -16,10 +19,10 @@ TagManager:
   - Water
   - UI
   - Background
-  - Pine
+  - Pipe
   - Bird
   - Ground
-  - 
+  - Wall
   - 
   - 
   - 
@@ -51,7 +54,7 @@ TagManager:
   - name: Bird
     uniqueID: 2739429859
     locked: 0
-  - name: Pine
+  - name: Pipe
     uniqueID: 784070219
     locked: 0
   - name: Ground
