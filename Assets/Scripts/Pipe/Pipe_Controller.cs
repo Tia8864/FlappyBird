@@ -6,7 +6,8 @@ using UnityEngine;
 public class Pipe_Controller : MonoBehaviour
 {
     public float speed;
-
+    [SerializeField]
+    private GameObject SpwanPipe;
 
     // Start is called before the first frame update
     void Start()
@@ -18,15 +19,22 @@ public class Pipe_Controller : MonoBehaviour
     {
         if(Bird_Controller._Instance != null)
         { 
-            if(Bird_Controller._Instance.flag == 0)
-            {
-                _PipeMove();
-            }else if(Bird_Controller._Instance.flag == 1)
+            /*if(Bird_Controller._Instance.flag == 1)
             {
                 Destroy(GetComponent<Pipe_Controller>());
+            }else if(Bird_Controller._Instance.flag == 0)
+            {
+                _PipeMove();
             }
+            ---------------------pipe movement------------------------
+             */
 
         }
+        /*if (ManagerGUI._Instance.flagResetPipe)
+        {
+            _SelfDestoy();
+            ManagerGUI._Instance.flagResetPipe = false;
+        }*/
         
     }
 
@@ -47,5 +55,18 @@ public class Pipe_Controller : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void _ResetPipe()
+    {
+        if (!SpwanPipe.gameObject.TryGetComponent(out Pipe_Controller isExists))
+        {
+            SpwanPipe.gameObject.AddComponent<Pipe_Controller>();
+        }
+    }
+
+    public void _SelfDestoy()
+    {
+        Destroy(gameObject);
+        Debug.Log("delete this");
     }
 }
