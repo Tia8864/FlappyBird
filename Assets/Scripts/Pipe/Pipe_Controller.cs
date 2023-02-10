@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class Pipe_Controller : MonoBehaviour
 {
-    public float speed;
+    private float speed;
 
     // Start is called before the first frame update
     void Start()
-    {  
+    {
+        speed = Pipe_Spwan._Instance.speedPipe;
     }
 
     // Update is called once per frame

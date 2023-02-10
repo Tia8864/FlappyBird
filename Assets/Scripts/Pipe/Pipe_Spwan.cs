@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Pipe_Spwan : MonoBehaviour
 {
+    public static Pipe_Spwan _Instance;
+
     [SerializeField]
     private GameObject pipeHolder;
-
+    public float timeSpwan, speedPipe;
     //-1.3 == 3.3 
     [SerializeField]
     private float min, max;
-
+    private void Awake()
+    {
+        if(_Instance == null)
+        {
+            _Instance = this;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +28,7 @@ public class Pipe_Spwan : MonoBehaviour
     //function spwan pipe
     IEnumerator _Spwan()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(timeSpwan);
         if(Bird_Controller._Instance.isAlive)
             Instantiate(pipeHolder, _RandomPosition(min, max), Quaternion.identity);
         StartCoroutine(_Spwan());

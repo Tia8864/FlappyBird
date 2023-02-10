@@ -7,11 +7,10 @@ public class Bird_Controller : MonoBehaviour
 {
     public static Bird_Controller _Instance;
 
-    public float bounceForce;
+    private float bounceForce;
     // dung cho chim nay len
     private Rigidbody2D rigidbody2D;
     private Animator animator;
-    [SerializeField]
     private GameObject spwanPipe;
 
     [SerializeField] //hien nen duoc khi van de private
@@ -35,7 +34,8 @@ public class Bird_Controller : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spwanPipe = GameObject.Find("SpwanPipe");   
+        spwanPipe = GameObject.Find("SpwanPipe");
+        bounceForce = ManagerGame._Instance.bounceForce;
     }
 
     private void FixedUpdate() // dung de xu ly chuyen dong // vat ly

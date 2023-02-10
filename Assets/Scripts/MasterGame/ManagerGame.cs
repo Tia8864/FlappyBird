@@ -14,6 +14,7 @@ public class ManagerGame : MonoBehaviour
 
     [SerializeField]
     private GameObject spwamPipe;
+    public float timeSpwanPipe, speedPipes, bounceForce;
     private void Awake()
     {
         if(_Instance == null)
@@ -24,6 +25,8 @@ public class ManagerGame : MonoBehaviour
     private void Start()
     {
         spwamPipe = GameObject.Find("SpwanPipe");
+        Pipe_Spwan._Instance.timeSpwan = timeSpwanPipe;
+        Pipe_Spwan._Instance.speedPipe = speedPipes;
     }
     private void Update()
     {
