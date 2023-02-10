@@ -31,6 +31,15 @@ public class ManagerUI : MonoBehaviour
         isEnd = false;
         _Show();
     }
+    private void Update()
+    {
+        if (!Bird_Controller._Instance.isAlive)
+        {
+            isInGame = false;
+            isEnd = true;
+            _Show();
+        }
+    }
 
     private void _Show()
     {

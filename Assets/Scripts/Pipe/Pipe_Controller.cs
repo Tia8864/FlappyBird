@@ -17,25 +17,8 @@ public class Pipe_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Bird_Controller._Instance != null)
-        { 
-            /*if(Bird_Controller._Instance.flag == 1)
-            {
-                Destroy(GetComponent<Pipe_Controller>());
-            }else if(Bird_Controller._Instance.flag == 0)
-            {
-                _PipeMove();
-            }
-            ---------------------pipe movement------------------------
-             */
-
-        }
-        /*if (ManagerGUI._Instance.flagResetPipe)
-        {
-            _SelfDestoy();
-            ManagerGUI._Instance.flagResetPipe = false;
-        }*/
-        
+        if (Bird_Controller._Instance.isAlive)
+            _PipeMove();
     }
 
     private void _PipeMove()
@@ -53,20 +36,7 @@ public class Pipe_Controller : MonoBehaviour
     {
         if(collision.tag == "Wall")
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
-    }
-    public void _ResetPipe()
-    {
-        if (!SpwanPipe.gameObject.TryGetComponent(out Pipe_Controller isExists))
-        {
-            SpwanPipe.gameObject.AddComponent<Pipe_Controller>();
-        }
-    }
-
-    public void _SelfDestoy()
-    {
-        Destroy(gameObject);
-        Debug.Log("delete this");
     }
 }

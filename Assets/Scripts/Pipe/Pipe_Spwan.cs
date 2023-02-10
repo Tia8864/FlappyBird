@@ -20,8 +20,9 @@ public class Pipe_Spwan : MonoBehaviour
     //function spwan pipe
     IEnumerator _Spwan()
     {
-        yield return new WaitForSeconds(2);
-        Instantiate(pipeHolder, _RandomPosition(min, max), Quaternion.identity);
+        yield return new WaitForSeconds(1f);
+        //if(Bird_Controller._Instance.isAlive)
+            Instantiate(pipeHolder, _RandomPosition(min, max), Quaternion.identity);
         StartCoroutine(_Spwan());
     }
 
@@ -31,12 +32,4 @@ public class Pipe_Spwan : MonoBehaviour
         temp.y = Random.Range(min, max);
         return temp;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
 }

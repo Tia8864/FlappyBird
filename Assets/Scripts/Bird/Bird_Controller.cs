@@ -82,7 +82,7 @@ public class Bird_Controller : MonoBehaviour
         didFlap = true;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Taget")
         {
@@ -96,9 +96,11 @@ public class Bird_Controller : MonoBehaviour
         if(collision.gameObject.tag == "Pipe")
         {
             isAlive = false;
+            rigidbody2D.velocity = Vector2.zero;
             audioSource.PlayOneShot(dieClip);
             animator.SetBool("isDie", true);
             spwanPipe.SetActive(false);
+
         }
         if(collision.gameObject.tag == "Ground")
         {
