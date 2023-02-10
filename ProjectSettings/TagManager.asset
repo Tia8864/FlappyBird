@@ -11,6 +11,7 @@ TagManager:
   - Taget
   - Pine
   - Wall
+  - pipes
   layers:
   - Default
   - TransparentFX

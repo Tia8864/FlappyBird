@@ -21,7 +21,7 @@ public class Pipe_Spwan : MonoBehaviour
     IEnumerator _Spwan()
     {
         yield return new WaitForSeconds(1f);
-        //if(Bird_Controller._Instance.isAlive)
+        if(Bird_Controller._Instance.isAlive)
             Instantiate(pipeHolder, _RandomPosition(min, max), Quaternion.identity);
         StartCoroutine(_Spwan());
     }

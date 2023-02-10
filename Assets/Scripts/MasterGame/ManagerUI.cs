@@ -13,7 +13,7 @@ public class ManagerUI : MonoBehaviour
     private bool isBegin, isInGame, isEnd, isMenu;
 
     //-----------------------------------
-    public bool flagReset = false;
+    //public bool flagReset = false;
     private void Awake()
     {
         if(_Instance == null)
@@ -77,7 +77,7 @@ public class ManagerUI : MonoBehaviour
     {
         isEnd = false;
         isBegin = true;
-        flagReset = true;
+        //flagReset = true;
         _Show();
         Time.timeScale = 0;
     }

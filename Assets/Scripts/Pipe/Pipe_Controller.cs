@@ -6,8 +6,6 @@ using UnityEngine;
 public class Pipe_Controller : MonoBehaviour
 {
     public float speed;
-    [SerializeField]
-    private GameObject SpwanPipe;
 
     // Start is called before the first frame update
     void Start()

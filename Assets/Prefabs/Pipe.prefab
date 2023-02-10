@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 7903692325462760328}
   m_Layer: 7
   m_Name: Pipe
-  m_TagString: Pine
+  m_TagString: pipes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,7 +343,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  SpwanPipe: {fileID: 0}
 --- !u!61 &7903692325462760328
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -50,7 +50,7 @@ public class ManagerGame : MonoBehaviour
     //----------Pipe-------------
     public void _ResetPipe()
     {
-        GameObject[] pipes = GameObject.FindGameObjectsWithTag("Pipe");
+        GameObject[] pipes = GameObject.FindGameObjectsWithTag("pipes");
         foreach (GameObject taget in pipes)
         {
             Destroy(taget);

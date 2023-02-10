@@ -47,6 +47,7 @@ public class Bird_Controller : MonoBehaviour
     {
         if (isAlive)
         {
+            animator.SetBool("isDie", false);
             if (didFlap)
             {
                 didFlap = false;
@@ -99,9 +100,9 @@ public class Bird_Controller : MonoBehaviour
             rigidbody2D.velocity = Vector2.zero;
             audioSource.PlayOneShot(dieClip);
             animator.SetBool("isDie", true);
-            spwanPipe.SetActive(false);
-
+            /*spwanPipe.SetActive(false);*/
         }
+
         if(collision.gameObject.tag == "Ground")
         {
             Time.timeScale = 0;
