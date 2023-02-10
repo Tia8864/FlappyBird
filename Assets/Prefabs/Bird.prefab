@@ -201,11 +201,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e8d4b71334a9e408806e8418bf6c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceForce: 4
-  audioSource: {fileID: 0}
-  flyClip: {fileID: 0}
-  pingClip: {fileID: 0}
-  dieClip: {fileID: 0}
+  audioSource: {fileID: 8230604463165079748}
+  flyClip: {fileID: 8300000, guid: 0c7149018a9093240859b73afcbd59d2, type: 3}
+  pingClip: {fileID: 8300000, guid: dfea51b5b2f90764b82ed3108a002f43, type: 3}
+  dieClip: {fileID: 8300000, guid: 62daceadfb32915408540d9c20d8d06e, type: 3}
+  isAlive: 1
+  point: 0
 --- !u!82 &8230604463165079748
 AudioSource:
   m_ObjectHideFlags: 0

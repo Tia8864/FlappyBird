@@ -55,6 +55,7 @@ public class ManagerUI : MonoBehaviour
         isInGame = true;
         _Show();
         Time.timeScale = 1;
+
     }
 
     public void _BtnPause()

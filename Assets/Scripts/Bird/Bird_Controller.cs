@@ -13,11 +13,8 @@ public class Bird_Controller : MonoBehaviour
     private Animator animator;
     private GameObject spwanPipe;
 
-    [SerializeField] //hien nen duoc khi van de private
-    private AudioSource audioSource;
-
-    [SerializeField]
-    private AudioClip flyClip, pingClip, dieClip;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip flyClip, pingClip, dieClip;
 
     public bool isAlive = true; //false
     private bool didFlap; //false
@@ -38,9 +35,25 @@ public class Bird_Controller : MonoBehaviour
         bounceForce = ManagerGame._Instance.bounceForce;
     }
 
+
     private void FixedUpdate() // dung de xu ly chuyen dong // vat ly
     {
         _BirdMove();
+    }
+    private float timelerp;
+    private void Update()
+    {
+        timelerp += Time.deltaTime;
+        _GoPos();
+    }
+    private void _GoPos()
+    {
+        if (transform.position.x >= -1f)
+        {
+            Vector3 temp = transform.position;
+            temp.x -= ManagerGame._Instance.speedPipes * Time.deltaTime;
+            transform.position = temp;
+        }
     }
 
     void _BirdMove()
@@ -78,7 +91,7 @@ public class Bird_Controller : MonoBehaviour
         }
     }
 
-    public void BtnFlap()
+    public void _BtnFlap()
     {
         didFlap = true;
     }
@@ -106,7 +119,12 @@ public class Bird_Controller : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             Time.timeScale = 0;
+            isAlive = false;
+            rigidbody2D.velocity = Vector2.zero;
+            audioSource.PlayOneShot(dieClip);
+            animator.SetBool("isDie", true);
         }
     }
+
 
 }
